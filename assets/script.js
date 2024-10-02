@@ -59,6 +59,7 @@ btnJoke.addEventListener("click", () => {
     showJoke();
     console.log("Button clicked and showJoke called"); // Debugging line
 });
+
 // Function: Show Quote
 const showQuote = () => {
     const randomQuoteText = getRandomData("quotes");
@@ -90,7 +91,7 @@ const showRiddle = () => {
     const newRiddleAnswer = document.createElement("p");
 
     newRiddleText.textContent = randomRiddle.question;
-    newRiddleAnswer.textContent = "- " + randomRiddle.answer;
+    newRiddleAnswer.textContent =  `-  ${randomRiddle.answer}`;
     newRiddleAnswer.setAttribute("id", "riddle-answer");
 
     newRiddleAnswer.hidden = true;
