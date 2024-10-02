@@ -1,2 +1,11 @@
 # Meme_Application
-Code snippets and  projects I have worked while learning programming
+
+## A simple application that
+
+1. Display random memes
+
+2. Tells a joke
+
+3. Shows a random quote
+
+4. Shows a random riddle and gives an answer
